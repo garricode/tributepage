@@ -1,0 +1,112 @@
+/* Set up background to a parchment-like color */
+.body {
+    background: #F0EAD6; /* Parchment-like background color */
+    font-size: 24px;
+    line-height: 1.5;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+    color: #4b3215; /* Dark brown text color */
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Apply these styles to the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Adjust margins and padding for the main content */
+.main {
+    margin: 20px; /* Reduce the margin for a cleaner look */
+    padding: 20px; /* Add some padding to separate content */
+}
+
+/* Center-align the header titles and add a subtle text shadow */
+h1, h2, h3 {
+    font-family: 'Tangerine', cursive;
+    text-shadow: 1px 1px 1px #B7AA9F; /* Add a subtle text shadow */
+    text-align: center;
+    font-size: 80px;
+}
+
+/* Add spacing to section titles for better readability */
+h2.section-title {
+    margin: 20px 0; /* Add spacing above and below section titles */
+}
+
+/* Center-align the image caption for consistency */
+.image-caption {
+    text-align: center; /* Center-align the image caption */
+}
+
+/* Center the page title and adjust the figure margin */
+.page-title {
+    margin: 0;
+}
+
+.figure {
+    margin: 10px 0; /* Adjust the figure margin for better spacing */
+}
+
+/* Adjust the max-width and border for the da Vinci image */
+.da-vinci-image {
+    display: block;
+    max-width: 30%; /* Adjust the max-width for responsiveness */
+    height: auto;
+    margin: 0 auto;
+    border: 5px solid #7e5f3c; /* Brown border for an antique look */
+}
+
+/* Remove list item bullets, align text to the left, and adjust list item margin */
+.timeline {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove default left padding */
+    text-align: left; /* Align the text to the left */
+}
+
+.timeline li {
+    margin: 10px 0; /* Adjust the margin for better spacing */
+}
+
+/* Adjust padding, margin, and font size for the quote section */
+.quote-section {
+    font-weight: normal;
+    font-style: italic;
+    background-color: #F0EAD6; /* Parchment-like background for the quote section */
+    border-left: 5px solid #7e5f3c; /* Brown border for an antique look */
+    padding: 20px; /* Increase padding for a better presentation */
+    margin: 10px 0; /* Adjust margin for better spacing */
+    text-align: left;
+    font-size: 22px; /* Adjust the font size for optimal readability */
+}
+
+/* Adjust padding, font size, and button style for the "Learn More" button */
+.learn-more-button {
+    display: inline-block;
+    padding: 15px 40px; /* Increase button padding for better user interaction */
+    background-color: #F0EAD6; /* Parchment-like background for the button */
+    color: #4b3215; /* Dark brown text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px; /* Add a slight border-radius for an inviting look */
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 24px; /* Larger font size for better readability */
+}
+
+/* Adjust footer padding and background color for an antique style */
+.footer {
+    text-align: center;
+    background: #F0EAD6; /* Parchment-like background for the footer */
+    color: #4b3215; /* Dark brown text color */
+    padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+}
