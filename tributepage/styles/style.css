@@ -1,6 +1,6 @@
-/* Set up background to a parchment-like color */
+/* Optimize the background color for the body */
 .body {
-    background: #F0EAD6; /* Parchment-like background color */
+    background: #FBF0D9; /* Light parchment-like background color */
     font-size: 24px;
     line-height: 1.5;
     max-width: 960px;
@@ -13,6 +13,7 @@
     flex-direction: column;
     min-height: 100vh;
 }
+
 
 /* Apply these styles to the container */
 .container {
@@ -78,7 +79,7 @@ h2.section-title {
 .quote-section {
     font-weight: normal;
     font-style: italic;
-    background-color: #F0EAD6; /* Parchment-like background for the quote section */
+    background-color: #FDF5E6; /* Lighter background resembling paper */
     border-left: 5px solid #7e5f3c; /* Brown border for an antique look */
     padding: 20px; /* Increase padding for a better presentation */
     margin: 10px 0; /* Adjust margin for better spacing */
@@ -86,27 +87,35 @@ h2.section-title {
     font-size: 22px; /* Adjust the font size for optimal readability */
 }
 
-/* Adjust padding, font size, and button style for the "Learn More" button */
+/* Fine-tuned style for the "Learn More" button with a dark brown background */
 .learn-more-button {
     display: inline-block;
-    padding: 15px 40px; /* Increase button padding for better user interaction */
-    background-color: #F0EAD6; /* Parchment-like background for the button */
-    color: #4b3215; /* Dark brown text color */
+    padding: 15px 40px; /* Maintain button padding for user interaction */
+    background: #4b3215; /* Dark brown background for a harmonious and inviting look */
+    color: #FFF; /* White text color for high contrast with the background */
     text-decoration: none;
     border: none;
-    border-radius: 5px; /* Add a slight border-radius for an inviting look */
+    border-radius: 5px; /* A slight border-radius for an inviting appearance */
     font-weight: bold;
     font-family: 'Lora', serif;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-size: 24px; /* Larger font size for better readability */
+    font-size: 24px; /* Maintain a larger font size for better readability */
 }
 
-/* Adjust footer padding and background color for an antique style */
+/* Hover effect for the "Learn More" button */
+.learn-more-button:hover {
+    background: #3b2b0e; /* Slightly darker brown background on hover for interaction */
+}
+
+
+
+/* Adjust footer padding and background color for a subtle footer */
 .footer {
     text-align: center;
-    background: #F0EAD6; /* Parchment-like background for the footer */
-    color: #4b3215; /* Dark brown text color */
-    padding: 20px 0;
+    background: #FDF5E6; /* Lighter background resembling paper for the footer */
+    color: #7e5f3c; /* A brown text color for the footer that complements the design */
+    padding: 10px; /* Reduced padding for a more subtle appearance */
     font-family: 'Montserrat', sans-serif;
 }
+
